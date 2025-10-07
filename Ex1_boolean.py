@@ -1,4 +1,4 @@
-# -------------------------------------------
+ # -------------------------------------------
 # Exercise 1: Boolean Logic
 # -------------------------------------------
 # In this exercise, you’ll explore how Python uses True and False values.
@@ -27,7 +27,12 @@
 # 2. Compare them using >, <, ==, != and print the results.
 
 # Write your code below:
-
+num1 = 63
+num2 = 15
+print(num1 > num2)
+print(num1 < num2)
+print(num1 == num2)
+print(num1 != num2)
 
 # Step 2: String Comparisons
 # --------------------------
@@ -44,8 +49,10 @@
 # 3. Compare them using != and print the result.
 
 # Write your code below:
-
-
+word1 = "banana"
+word2 = "Banana"
+print(word1 == word2)
+print(word1 != word2)
 # Step 3: Input and Boolean Results
 # ---------------------------------
 # You can get input from the user and immediately check something about it.
@@ -61,7 +68,8 @@
 # Ask the user to type a word and compare it to a stored string, then print True/False.
 
 # Write your code below:
-
+num3 = int(input("Enter a number"))
+print(num3 > 35)
 # -------------------------------------------
 # Submitting Your Work
 # -------------------------------------------
@@ -82,7 +90,9 @@
 # Compare it to a stored password and print the Boolean result using print().
 # Example:
 # print(user_input == stored_password)  # True if correct, False otherwise
-
+pass1 = input("Enter a password")
+storedpass1 = "Git2025"
+print(pass1 == storedpass1)
 # Extension 2:
 # Ask the user to enter any text.
 # Check if they actually typed something (not empty) and print True/False.

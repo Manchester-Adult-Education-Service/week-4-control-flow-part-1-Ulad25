@@ -90,7 +90,9 @@ print(num3 > 35)
 # Compare it to a stored password and print the Boolean result using print().
 # Example:
 # print(user_input == stored_password)  # True if correct, False otherwise
-
+pass1 = input("Enter a password")
+storedpass1 = "Git2025"
+print(pass1 == storedpass1)
 # Extension 2:
 # Ask the user to enter any text.
 # Check if they actually typed something (not empty) and print True/False.
